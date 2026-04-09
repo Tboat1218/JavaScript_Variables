@@ -31,3 +31,9 @@ let author = "Patrick Rothfuss";
 let pageCount = 722;
 let bookmark = 456;
 let hasRead = true;
+
+// Console log all variables
+console.log(`My name is ${firstName} ${lastName} and I am ${age} years old.`);
+console.log(`Language: ${language}, Created in: ${createdYear}, Case Sensitive: ${isCaseSensitive}`);
+console.log(`Price: $${price}, On Sale: ${isOnSale}, Sale Percentage: ${salePercentage}%, Stock: ${stock}, In Stock: ${inStock}, Selected Size: ${selectedSize}`);
+console.log(`Title: ${title}, Author: ${author}, Pages: ${pageCount}, Bookmark: ${bookmark}, Has Read: ${hasRead}`);
